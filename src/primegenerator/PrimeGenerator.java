@@ -4,7 +4,7 @@ package primegenerator;
  * Created by ArupPc on 13-05-2017.
  */
 import java.util.*;
-
+/*Prime generator -- seive of ertosthene*/
 public class PrimeGenerator{
     public static void main(String[] args) {
         int n = new Scanner(System.in).nextInt();
