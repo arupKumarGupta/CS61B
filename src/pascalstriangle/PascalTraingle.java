@@ -19,15 +19,16 @@ a number in a pascal's triangle is sum of the 2 numbers(left  and right)
 
 */
 
-import java.util.*;
+import java.util.Scanner;
 public class PascalTraingle {
     public static void main(String[] args) {
         int n = new Scanner(System.in).nextInt();
         int[][] ans = pt(n);
+
         print(ans);
 
-    }
 
+    }
     public static void print(int[][] ans){
 
         for(int i = 0; i<ans.length; i++){
